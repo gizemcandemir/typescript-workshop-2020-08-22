@@ -40,9 +40,9 @@ interface DogProps {
 const Dog = ({ dog }: DogProps) => (
     <div style={{ border: '1px solid red' }}>
         <div>Name: {dog.name}</div>
-        <div>Drinks milk: {dog.lovesToBark ? '✅' : '❌'}</div>
+        <div>Loves to bark: {dog.lovesToBark ? '✅' : '❌'}</div>
         <div>
-            Wann play fetch? Make sure you bring a {dog.favoriteFetchToy}!{' '}
+            Wanna play fetch? Make sure you bring a {dog.favoriteFetchToy}!{' '}
         </div>
     </div>
 )
